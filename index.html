@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+    <h1 style="color: red;">DEMO LOGIN PAGE</h1>
+    <br>
+   <form action="http://127.0.0.1:5000/" method="POST">
+    <p>enter your username</p>
+    <input type="text" name="uname">
+    <p>enter your password</p>
+    <input type="password" name="pas">
+    <br>
+    <br>
+    <input type="submit" name="but">
+   </form>
+   <br>
+ <!--   <table>
+        <tr>
+            <td>id</td>
+            <td>name</td>
+        </tr>
+        {% for x in all %}
+        <tr>
+        <td>{{x.id}}</td>
+        <td>{{x.name}}</td>
+        <td><button><a href="http://127.0.0.1:5000/update"> edit </a></button></td>
+        <td><button> delete </button></td>
+        </tr>
+        {% endfor %}    
+    </table>  -->
+
+    <h1>Not a member? join us today</h1>
+    <a href="http://127.0.0.1:5000/signup">
+    <input type="button" value="Sign up">
+    </a>
+
+</body>
+</html>
